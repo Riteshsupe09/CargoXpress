@@ -1,3 +1,8 @@
+* {
+  font-family: Arial;
+  margin: 0;
+}
+
 /* Top bar */
 .top-bar {
   background-color: #ff8c1a;
