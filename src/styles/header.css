@@ -1,0 +1,14 @@
+.top-bar {
+  background: #ff7a00;
+  color: white;
+  padding: 10px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  font-size: 18px;
+}
