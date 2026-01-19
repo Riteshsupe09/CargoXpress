@@ -33,7 +33,7 @@
 .icon-circle {
   width: 42px;
   height: 42px;
-  background: #ff5a1f;
+  background: #ff8c1a;
   color: #fff;
   border-radius: 50%;
   display: flex;
@@ -82,7 +82,7 @@
   content: "";
   width: 8px;
   height: 8px;
-  background: #ff5a1f;
+  background: #ff8c1a;
   border-radius: 50%;
   position: absolute;
   left: 0;

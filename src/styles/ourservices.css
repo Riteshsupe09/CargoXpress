@@ -12,7 +12,7 @@
 .icon-circle {
   width: 70px;
   height: 70px;
-  background: #ff5a1f;
+  background: #ff8c1a;
   color: #fff;
   border-radius: 50%;
   margin: auto;
@@ -29,13 +29,13 @@
 }
 
 .services-header h2 span {
-  color: #ff5a1f;
+  color: #ff8c1a;
 }
 
 .underline {
   width: 80px;
   height: 4px;
-  background: #ff5a1f;
+  background: #ff8c1a;
   margin: 10px auto 20px;
   border-radius: 5px;
 }
@@ -110,6 +110,10 @@
 }
 
 .service-content li svg {
-  color: #ff5a1f;
+  color: #ff8c1a;
   font-size: 18px;
 }
+
+
+
+

@@ -1,7 +1,12 @@
 import "../styles/ourservices.css";
 import {
   FaCheckCircle,
-  FaGlobe
+  FaGlobe,
+  FaBox,
+  FaWarehouse,
+  FaShieldAlt,
+  FaFileAlt,
+  FaThermometerHalf,
 } from "react-icons/fa";
 
 import air from "../assets/Air freight.jpg";
@@ -91,4 +96,7 @@ const OurServices = () => {
   );
 };
 
+
 export default OurServices;
+
+

@@ -4,6 +4,8 @@ import Services from "./components/Services";
 import About from "./components/About";
 import Commitment from "./components/Commitment";
 import OurServices from "./components/OurServices";
+import SpecializedSolutions from "./components/SpecializedSolutions";
+import CoreOperations from "./components/CoreOperations"
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -16,6 +18,8 @@ function App() {
       <Services />
       <Commitment />
       <OurServices />
+      <SpecializedSolutions />
+      <CoreOperations />
       <Contact />
       <Footer />
     </>
