@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="relative flex justify-between items-center w-full px-10 py-60 text-white">
         {/* Left Content */}
         <div className="max-w-100 justify-center items-center">
-          <h1 className="text-[48px] font-[700]">CargoXpress Logistics Services</h1>
+          <h1 className="text-[48px] font-bold">CargoXpress Logistics Services</h1>
           <h2 className="whitespace-nowrap text-[22px] text-orange-400 mx-10px my-0 font-bold">17+ Years of Excellence in Freight Forwarding</h2>
           <p className="text-[16px] mb-25px">
             From air and sea freight to custom clearance and warehousing, we
@@ -79,7 +79,7 @@ export default function Hero() {
               </span>
             </div>
 
-            <button className="w-full bg-orange-500 py-2.5 rounded-lg font-semibold mt-3">
+            <button className="w-full bg-orange-400 py-2.5 rounded-lg font-semibold mt-3 cursor-pointer hover:bg-orange-500">
               Get In Touch
             </button>
           </div>

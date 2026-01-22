@@ -55,36 +55,36 @@ const services = [
 
 const OurServices = () => {
   return (
-    <section className="services-section">
-      <div className="services-header">
-        <div className="icon-circle">
-          <FaGlobe />
+    <section className="px-40 py-15 bg-white">
+      <div className="text-center mb-12">
+        <div className="mx-auto mb-4 w-16 h-16 shrink-0 bg-orange-400 flex items-center justify-center rounded-full">
+          <FaGlobe className="w-8 h-8 text-white"/>
         </div>
-        <h2>
-          Our <span>Services</span>
+        <h2 className="text-4xl font-bold mb-2 text-gray-900">
+          Our <span className="text-orange-400">Services</span>
         </h2>
-        <div className="underline"></div>
-        <p>
+        <div className="w-20 h-1 bg-orange-400 rounded-2xl mx-auto"></div>
+        <p className="text-gray-600 mt-4 text-xl">
           Comprehensive freight, logistics & transportation solutions with
           professional courier services and global network coverage.
         </p>
       </div>
 
-      <div className="service-grid">
+      <div className="grid grid-cols-5 gap-8">
         {services.map((service, index) => (
-          <div className="services-card" key={index}>
-            <div className="image-box">
+          <div className="bg-white rounded-2xl shadow-2xl hover:-translate-y-5 transition-transform duration-300" key={index}>
+            <div className="rounded-t-2xl overflow-hidden relative">
               <img src={service.image} alt={service.title} />
-              <h3>{service.title}</h3>
+                <h3 className="absolute text-white font-bold left-1 bottom-1 ">{service.title}</h3>
             </div>
 
-            <div className="service-content">
-              <p>{service.desc}</p>
+            <div className="p-6">
+              <p className="text-gray-500 leading-6 mb-3">{service.desc}</p>
 
               <ul>
                 {service.points.map((point, i) => (
-                  <li key={i}>
-                    <FaCheckCircle /> {point}
+                  <li className="flex items-center gap-2 mb-2" key={i}>
+                    <FaCheckCircle className="text-orange-400" /> {point}
                   </li>
                 ))}
               </ul>

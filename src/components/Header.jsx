@@ -15,7 +15,7 @@ export default function Header() {
       </div>
 
       {/* Main Header */}
-      <header className="flex justify-between items-center px-6 py-4 shadow-md">
+      <header className="flex justify-between items-center px-6 py-4 shadow-md sticky top-0 bg-white z-50">
         <div className="flex items-center gap-2 w-10 h-10 whitespace-nowrap text-lg">
           <img src="/logo.png" alt="CargoXpress Logo" />
           <span>
