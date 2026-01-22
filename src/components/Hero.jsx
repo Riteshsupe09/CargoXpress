@@ -3,7 +3,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 export default function Hero() {
   return (
-    <div className="bg-[url(D:\Ritesh\Internship\CargoXpress\src\assets\hero.jpg)] bg-cover bg-center h-150 relative flex items-center bg-blend-overlay bg-black/30">
+    <div className="bg-[url('/hero.jpg')] bg-cover bg-center h-150 relative flex items-center bg-blend-overlay bg-black/30">
       {/* Overlay */}
       <div className="absolute inset-0"></div>
 
