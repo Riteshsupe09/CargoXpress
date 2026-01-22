@@ -1,4 +1,4 @@
-import "../styles/commitment.css";
+
 import {
   FaBullseye,
   FaStar,

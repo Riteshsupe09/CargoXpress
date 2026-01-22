@@ -1,4 +1,4 @@
-import "../styles/specializedsolutions.css";
+
 import {
   FaBox,
   FaWarehouse,

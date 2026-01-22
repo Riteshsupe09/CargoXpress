@@ -1,4 +1,4 @@
-import "../styles/coreoperations.css";
+
 import {
   FaFileAlt,
   FaGlobe,

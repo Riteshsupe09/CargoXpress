@@ -1,4 +1,4 @@
-import "../styles/ourservices.css";
+
 import {
   FaCheckCircle,
   FaGlobe,
@@ -9,11 +9,11 @@ import {
   FaThermometerHalf,
 } from "react-icons/fa";
 
-import air from "../assets/Air freight.jpg";
-import sea from "../assets/Sea freight.jpg";
-import land from "../assets/Land freight.jpg";
-import cargo from "../assets/Cargo Handling.jpg";
-import perishable from "../assets/Import Export.jpg";
+import air from "../assets/air-freight.jpg";
+import sea from "../assets/sea-freight.jpg";
+import land from "../assets/land-freight.jpg";
+import cargo from "../assets/cargo-handling.jpg";
+import perishable from "../assets/import-export.jpg";
 
 const services = [
   {
